@@ -1,2 +1,2 @@
-# UNO
+# Uno
 Monorepo
