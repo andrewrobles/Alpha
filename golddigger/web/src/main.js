@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
-import PsalmOne from '../../text/PsalmOne.vue'
+import JamieFoxx1 from '../../text/JamieFoxx1.vue'
 
 const routes = [
-	{ path: '/1', component: PsalmOne, name: 'PsalmOne' },
+	{ path: '/1', component: JamieFoxx1, name: 'JamieFoxx1' },
 ]
 
 const router = createRouter({
