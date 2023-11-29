@@ -2,9 +2,11 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import JamieFoxx1 from '../../text/JamieFoxx1.vue'
+import KanyeWestJamieFoxx1 from '../../text/KanyeWestJamieFoxx1.vue'
 
 const routes = [
 	{ path: '/1', component: JamieFoxx1, name: 'JamieFoxx1' },
+	{ path: '/2', component: KanyeWestJamieFoxx1, name: 'KanyeWestJamieFoxx1' },
 ]
 
 const router = createRouter({
