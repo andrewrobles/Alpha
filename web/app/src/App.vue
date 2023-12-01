@@ -1,6 +1,5 @@
 <template>
-<router-link to="/1" class="link">Psalm 1</router-link>
-<br>
+<router-link to="/psalms" class="link">Psalms</router-link><br>
 <router-view></router-view>
 </template>
 
