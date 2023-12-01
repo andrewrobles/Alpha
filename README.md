@@ -3,6 +3,7 @@ Uno
 
 ## Project setup
 ```
+cd web/app
 npm install
 ```
 
