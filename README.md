@@ -1,5 +1,4 @@
-
-Uno monorepo
-============
+Uno
+===
 
 https://uno.andrewrobles.com
