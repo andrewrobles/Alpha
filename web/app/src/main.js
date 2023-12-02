@@ -23,6 +23,14 @@ import FourthVerse from '../../lyrics/fastlane/FourthVerse.vue'
 import FifthVerse from '../../lyrics/fastlane/FifthVerse.vue'
 import SixthVerse from '../../lyrics/fastlane/SixthVerse.vue'
 
+import GoldDigger from '../../lyrics/golddigger/Index.vue'
+import JamieFoxx1 from '../../lyrics/golddigger/JamieFoxx1.vue'
+import KanyeWest1 from '../../lyrics/golddigger/KanyeWest1.vue'
+import KanyeWest2 from '../../lyrics/golddigger/KanyeWest2.vue'
+import KanyeWest3 from '../../lyrics/golddigger/KanyeWest3.vue'
+import KanyeWest4 from '../../lyrics/golddigger/KanyeWest4.vue'
+import KanyeWestJamieFoxx from '../../lyrics/golddigger/KanyeWestJamieFoxx.vue'
+
 const routes = [
 	{ path: '/psalms', component: Psalms, name: 'Psalms' },
 	{ path: '/psalms/1', component: PsalmOne, name: 'PsalmOne' },
@@ -35,6 +43,7 @@ const routes = [
 	{ path: '/psalms/8', component: PsalmEight, name: 'PsalmEight' },
 	{ path: '/psalms/9', component: PsalmNine, name: 'PsalmNine' },
 	{ path: '/psalms/10', component: PsalmTen, name: 'PsalmTen' },
+
 	{ path: '/fastlane', component: FastLane, name: 'FastLane' },
 	{ path: '/fastlane/hook', component: Hook, name: 'Hook' },
 	{ path: '/fastlane/1', component: FirstVerse, name: 'FirstVerse' },
@@ -43,6 +52,14 @@ const routes = [
 	{ path: '/fastlane/4', component: FourthVerse, name: 'FourthVerse' },
 	{ path: '/fastlane/5', component: FifthVerse, name: 'FifthVerse' },
 	{ path: '/fastlane/6', component: SixthVerse, name: 'SixthVerse' },
+
+	{ path: '/golddigger', component: GoldDigger, name: 'GoldDigger' },
+	{ path: '/golddigger/1', component: JamieFoxx1, name: 'JamieFoxx1'},
+	{ path: '/golddigger/hook', component: KanyeWestJamieFoxx, name: 'KanyeWestJamieFoxx'},
+	{ path: '/golddigger/2', component: KanyeWest1, name: 'KanyeWest1'},
+	{ path: '/golddigger/3', component: KanyeWest2, name: 'KanyeWest2'},
+	{ path: '/golddigger/4', component: KanyeWest3, name: 'KanyeWest3'},
+	{ path: '/golddigger/5', component: KanyeWest4, name: 'KanyeWest4'},
 ]
 
 const router = createRouter({
