@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 Why standest thou afar off, O LORD?<br>
 Why hidest thou thyself in times of trouble?<br>
 The wicked in his pride doth persecute the poor:<br>

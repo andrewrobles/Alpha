@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 Give ear to my words, O LORD,<br>
 Consider my meditation.<br>
 Hearken unto the voice of my cry, my King, and my God:<br>

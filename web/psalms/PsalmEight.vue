@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 LORD our Lord,<br>
 How excellent is thy name in all the earth!<br>
 Who hast set thy glory above the heavens.<br>

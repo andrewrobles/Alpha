@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 Blessed is the man that walketh not in the counsel of the ungodly,<br>
 Nor standeth in the way of sinners,<br>
 Nor sitteth in the seat of the scornful<br>

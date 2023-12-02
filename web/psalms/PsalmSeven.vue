@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 O LORD my God, in thee do I put my trust:<br>
 Save me from all them that persecute me, and deliver me:<br>
 Lest he tear my soul like a lion,<br>

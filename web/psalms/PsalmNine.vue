@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 I will praise thee, O LORD, with my whole heart;<br>
 I will shew forth all thy marvellous works.<br>
 I will be glad and rejoice in thee:<br>

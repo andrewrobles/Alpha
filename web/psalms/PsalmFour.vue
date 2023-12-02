@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 Hear me when I call, O God of my righteousness:<br>
 Thou hast enlarged me when I was in distress;<br>
 Have mercy upon me, and hear my prayer.<br>

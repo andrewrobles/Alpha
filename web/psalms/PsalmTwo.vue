@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 Why do the heathen rage,<br>
 And the people imagine a vain thing?<br>
 The kings of the earth set themselves,<br>

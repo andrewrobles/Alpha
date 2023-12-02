@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
-import Psalms from '../../psalms/Index.vue'
+import PsalmsIndex from '../../psalms/Index.vue'
 import PsalmOne from '../../psalms/PsalmOne.vue'
 import PsalmTwo from '../../psalms/PsalmTwo.vue'
 import PsalmThree from '../../psalms/PsalmThree.vue'
@@ -14,25 +14,8 @@ import PsalmEight from '../../psalms/PsalmEight.vue'
 import PsalmNine from '../../psalms/PsalmNine.vue'
 import PsalmTen from '../../psalms/PsalmTen.vue'
 
-import FastLane from '../../lyrics/fastlane/Index.vue'
-import Hook from '../../lyrics/fastlane/Hook.vue'
-import FirstVerse from '../../lyrics/fastlane/FirstVerse.vue'
-import SecondVerse from '../../lyrics/fastlane/SecondVerse.vue'
-import ThirdVerse from '../../lyrics/fastlane/ThirdVerse.vue'
-import FourthVerse from '../../lyrics/fastlane/FourthVerse.vue'
-import FifthVerse from '../../lyrics/fastlane/FifthVerse.vue'
-import SixthVerse from '../../lyrics/fastlane/SixthVerse.vue'
-
-import GoldDigger from '../../lyrics/golddigger/Index.vue'
-import JamieFoxx1 from '../../lyrics/golddigger/JamieFoxx1.vue'
-import KanyeWest1 from '../../lyrics/golddigger/KanyeWest1.vue'
-import KanyeWest2 from '../../lyrics/golddigger/KanyeWest2.vue'
-import KanyeWest3 from '../../lyrics/golddigger/KanyeWest3.vue'
-import KanyeWest4 from '../../lyrics/golddigger/KanyeWest4.vue'
-import KanyeWestJamieFoxx from '../../lyrics/golddigger/KanyeWestJamieFoxx.vue'
-
 const routes = [
-	{ path: '/psalms', component: Psalms, name: 'Psalms' },
+	{ path: '/psalms', component: PsalmsIndex, name: 'PsalmsIndex' },
 	{ path: '/psalms/1', component: PsalmOne, name: 'PsalmOne' },
 	{ path: '/psalms/2', component: PsalmTwo, name: 'PsalmTwo' },
 	{ path: '/psalms/3', component: PsalmThree, name: 'PsalmThree' },
@@ -43,23 +26,6 @@ const routes = [
 	{ path: '/psalms/8', component: PsalmEight, name: 'PsalmEight' },
 	{ path: '/psalms/9', component: PsalmNine, name: 'PsalmNine' },
 	{ path: '/psalms/10', component: PsalmTen, name: 'PsalmTen' },
-
-	{ path: '/fastlane', component: FastLane, name: 'FastLane' },
-	{ path: '/fastlane/hook', component: Hook, name: 'Hook' },
-	{ path: '/fastlane/1', component: FirstVerse, name: 'FirstVerse' },
-	{ path: '/fastlane/2', component: SecondVerse, name: 'SecondVerse' },
-	{ path: '/fastlane/3', component: ThirdVerse, name: 'ThirdVerse' },
-	{ path: '/fastlane/4', component: FourthVerse, name: 'FourthVerse' },
-	{ path: '/fastlane/5', component: FifthVerse, name: 'FifthVerse' },
-	{ path: '/fastlane/6', component: SixthVerse, name: 'SixthVerse' },
-
-	{ path: '/golddigger', component: GoldDigger, name: 'GoldDigger' },
-	{ path: '/golddigger/1', component: JamieFoxx1, name: 'JamieFoxx1'},
-	{ path: '/golddigger/hook', component: KanyeWestJamieFoxx, name: 'KanyeWestJamieFoxx'},
-	{ path: '/golddigger/2', component: KanyeWest1, name: 'KanyeWest1'},
-	{ path: '/golddigger/3', component: KanyeWest2, name: 'KanyeWest2'},
-	{ path: '/golddigger/4', component: KanyeWest3, name: 'KanyeWest3'},
-	{ path: '/golddigger/5', component: KanyeWest4, name: 'KanyeWest4'},
 ]
 
 const router = createRouter({

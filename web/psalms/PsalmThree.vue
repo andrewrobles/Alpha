@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 LORD, how are they increased that trouble me!<br>
 Many are they that rise up against me.<br>
 Many there be which say of my soul,<br>

@@ -1,4 +1,9 @@
+<script setup>
+import Index from './Index.vue'
+</script>
+
 <template>
+<index/>
 O LORD, rebuke me not in thine anger,<br>
 Neither chasten me in thy hot displeasure.<br>
 Have mercy upon me, O LORD; for I am weak:<br>
