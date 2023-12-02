@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
-import PsalmsIndex from '../../psalms/Index.vue'
+import PsalmsIndex from '../../vue/Index.vue'
 import PsalmOne from '../../psalms/PsalmOne.vue'
 import PsalmTwo from '../../psalms/PsalmTwo.vue'
 import PsalmThree from '../../psalms/PsalmThree.vue'
