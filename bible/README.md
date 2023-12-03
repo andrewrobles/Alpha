@@ -18,6 +18,11 @@ Install requirements
 pip install -r requirements.txt
 ```
 
+Run server
+```
+flask --app index run
+```
+
 ## Web Setup
 
 Use Web app directory
