@@ -1,7 +1,5 @@
-Uno
+Bible
 ===
-
-Bible app
 
 ## API Setup
 
