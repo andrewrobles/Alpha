@@ -1,9 +1,35 @@
 Uno
 ===
 
-## Web Project setup
+Bible app
+
+## API Setup
+
+Use API directory
+```
+cd api
+```
+
+Activate the environment
+```
+python3 -m venv env
+```
+
+Install requirements
+```
+pip install -r requirements.txt
+```
+
+## Web Setup
+
+Use Web app directory
+
 ```
 cd web/app
+```
+
+Install requirements
+```
 npm install
 ```
 
