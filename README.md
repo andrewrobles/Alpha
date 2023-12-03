@@ -12,7 +12,7 @@ cd api
 
 Activate the environment
 ```
-python3 -m venv env
+. env/bin/activate
 ```
 
 Install requirements
