@@ -1,7 +1,7 @@
 Bible
 ===
 
-## Web Setup
+## Setup
 
 Use Web app directory
 
