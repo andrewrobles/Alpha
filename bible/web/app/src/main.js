@@ -2,8 +2,8 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
-import PsalmsIndex from '../../vue/Index.vue'
-import Psalm from '../../vue/Psalm.vue'
+import PsalmsIndex from '../../components/Index.vue'
+import Psalm from '../../components/Psalm.vue'
 
 const routes = [
 	{ path: '/psalms', component: PsalmsIndex, name: 'PsalmsIndex' },
