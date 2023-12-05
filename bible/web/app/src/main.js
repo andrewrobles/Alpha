@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
 import Contents from '../../components/Contents.vue'
-import Psalm from '../../components/Psalm.vue'
+import Psalm from '../../components/PsalmX.vue'
 
 const routes = [
 	{ path: '/psalms', component: Contents, name: 'Contents' },
