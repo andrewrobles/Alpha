@@ -17,6 +17,7 @@ const routes = [
 	{ path: '/psalms/8', component: Psalm, name: 'Psalm8', props: { index: 8 }},
 	{ path: '/psalms/9', component: Psalm, name: 'Psalm9', props: { index: 9 }},
 	{ path: '/psalms/10', component: Psalm, name: 'Psalm10', props: { index: 10 }},
+	{ path: '/psalms/11', component: Psalm, name: 'Psalm11', props: { index: 11 }},
 ]
 
 const router = createRouter({
