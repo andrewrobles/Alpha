@@ -2,11 +2,11 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 
-import PsalmsIndex from '../../components/Index.vue'
+import Contents from '../../components/Contents.vue'
 import Psalm from '../../components/Psalm.vue'
 
 const routes = [
-	{ path: '/psalms', component: PsalmsIndex, name: 'PsalmsIndex' },
+	{ path: '/psalms', component: Contents, name: 'Contents' },
 	{ path: '/psalms/1', component: Psalm, name: 'Psalm1', props: { index: 1 }},
 	{ path: '/psalms/2', component: Psalm, name: 'Psalm2', props: { index: 2 }},
 	{ path: '/psalms/3', component: Psalm, name: 'Psalm3', props: { index: 3 }},

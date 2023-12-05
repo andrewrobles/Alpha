@@ -1,5 +1,5 @@
 <script setup>
-import Index from './Index.vue'
+import Contents from './Contents.vue'
 import Psalm1 from '../psalms/1.vue'
 import Psalm2 from '../psalms/2.vue'
 import Psalm3 from '../psalms/3.vue'
