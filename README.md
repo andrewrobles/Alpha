@@ -1,5 +1,3 @@
-# drew
-
 Table of Contents
 
 | Project   | URL |
