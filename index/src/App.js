@@ -5,7 +5,7 @@ const links = require('./links.json')
 
 function App() {
   return <Routes>
-      <Route path='/' element={ <></> }/>
+      {/* <Route path='/' element={ <></> }/> */}
       {links.map(link => <Route path={link.path} element={ <Link url={link.url}/> }/>)}
   </Routes>
 }
