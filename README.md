@@ -1,6 +1,6 @@
 # Drew
 
-Table of Contents:
+### Table of Contents
 - [My Linktree](https://andrewrobles.com)
   - `index` in repo
   - `https://andrewrobles.com` in browser
