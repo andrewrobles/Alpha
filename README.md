@@ -1,6 +1,10 @@
 # Drew
 
 Table of Contents:
-- [My Linktree](https://andrewrobles.com) `https://andrewrobles.com`
-- [Bible App](https://bible.andrewrobles.com) `https://bible.andrewrobles.com`
+- [My Linktree](https://andrewrobles.com)
+  - `index` in repo
+  - `https://andrewrobles.com` in browser
+- [Bible App](https://bible.andrewrobles.com)
+  - `bible` in repo
+  - `https://bible.andrewrobles.com` in browser
 
