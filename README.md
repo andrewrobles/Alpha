@@ -2,7 +2,7 @@
 
 Table of Contents
 
-| Name   | Folder | URL |
-|--------|-----|------|
-| Linktree |  index | https://andrewrobles.com |
-| Bible App | bible | https://bible.andrewrobles.com |
+| Project   | URL |
+|-------|------|
+| Index | https://andrewrobles.com |
+| Bible | https://bible.andrewrobles.com |
