@@ -1,5 +1,3 @@
-TABLE OF CONTENTS
-
 | Project   | URL |
 |-------|------|
 | index | [https://andrewrobles.com](https://andrewrobles.com) |
