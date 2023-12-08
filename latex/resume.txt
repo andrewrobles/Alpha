@@ -8,7 +8,7 @@
 
 \begin{document}
     \begin{rSection}{Summary}
-        {Software Engineer with 4 years of experience}
+        {Software Engineer with 4 years of experience developing applications using JavaScript and Python}
     \end{rSection}
 
     \begin{rSection}{Education}
@@ -16,16 +16,16 @@
     \end{rSection}
 
     \begin{rSection}{EXPERIENCE}
-        \textbf{Full-Stack Developer} \hfill 6/22 - Present\\
+        \textbf{Software Engineer} \hfill 6/22 - Present\\
         Apple\hfill \textit{Culver City, CA}
         \begin{itemize}
             \itemsep -3pt {} 
+            \item Led a team of 3 offshore developers to migrate an existing application to a monorepo
             \item Migrated front-end component library from Vue2 to Vue3 to unblock a dozen or so dependent web apps to also upgrade to Vue3
-            \item Streamlined development workflow by decoupling API from cloud infrastructure by containerizing Kafka broker and MongoDB database
             \item Created micro-service for consuming Kafka messages from software applications from various external departments
             \item Defined API endpoints to allow frontend to communicate with the MongoDB database
         \end{itemize}
-        \textbf{Full-Stack Developer} \hfill 12/21 - 5/22\\
+        \textbf{Software Engineer} \hfill 12/21 - 5/22\\
         StringKing \hfill \textit{Gardena, CA}
         \begin{itemize}
             \itemsep -3pt {} 
@@ -33,7 +33,7 @@
             \item Increased test database nightly backup process speed by 4x by automating tedious container orchestration using an RSync celery task and the Kubernetes Python library
             \item Eliminated redundant API client code by refactoring internal Python API client architecture to be able to handle both HTTP and domain-specific protocols
         \end{itemize}
-        \textbf{Full-Stack Developer} \hfill 9/19 - 12/21\\
+        \textbf{Software Engineer} \hfill 9/19 - 12/21\\
         GBL Systems Corporation \hfill \textit{Camarillo, CA}
         \begin{itemize}
             \itemsep -3pt {} 
@@ -46,7 +46,7 @@
 
     \begin{rSection}{SKILLS}
         \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-            Technologies & React, Vue, MongoDB, Express, Node, Django, Bootstrap, Swagger, Cypress, Puppeteer\\
+            Technologies & React, Vue, MongoDB, Express, Node, Django, Bootstrap, Swagger, Cypress\\
             Languages & JavaScript, Python\\
         \end{tabular}
     \end{rSection}
