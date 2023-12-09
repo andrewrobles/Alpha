@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { onMounted } from 'vue'
 const BIBLE_ID = 'de4e12af7f28f599-02'
 const API_KEY = '4a203cf6d4603048c9008bc07df8be2a'
@@ -24,7 +24,7 @@ const fetchData = async () => {
 onMounted(async () => {
 	await fetchData()
 })
-</script>
+</script> -->
 
 <template>
 <router-link to="/psalms" class="link">BOOK OF PSALMS</router-link><br>
