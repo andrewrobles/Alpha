@@ -1,11 +1,12 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   useEffect(() => {
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
+  const [text, setText] = useState("");
   const BIBLE_ID = "de4e12af7f28f599-02";
   const API_KEY = "4a203cf6d4603048c9008bc07df8be2a";
   const URL = "https://api.scripture.api.bible/v1/bibles";
@@ -22,6 +23,7 @@ function App() {
       });
       const json = await response.json();
       console.log(json.data.content);
+      setText(json.data.content)
     } catch (error) {
       console.error(error);
     }
@@ -29,9 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        {text}
       </header>
     </div>
   );
