@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
         },
       });
       const json = await response.json();
-      console.log(json.data.content);
       setText(json.data.content)
     } catch (error) {
       console.error(error);
