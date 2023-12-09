@@ -10,6 +10,7 @@ import Psalm8 from "../../psalms/8.vue";
 import Psalm9 from "../../psalms/9.vue";
 import Psalm10 from "../../psalms/10.vue";
 import Psalm11 from "../../psalms/11.vue";
+import Psalm12 from "../../psalms/12.vue";
 
 const props = defineProps({
   index: Number,
@@ -29,5 +30,6 @@ const props = defineProps({
     <psalm9 v-if="index === 9" />
     <psalm10 v-if="index === 10" />
     <psalm11 v-if="index === 11" />
+    <psalm12 v-if="index === 12" />
   </div>
 </template>

@@ -11,6 +11,7 @@
 <router-link to="/psalms/9" class="link">PSALM 9</router-link><br>
 <router-link to="/psalms/10" class="link">PSALM 10</router-link><br>
 <router-link to="/psalms/11" class="link">PSALM 11</router-link><br>
+<router-link to="/psalms/12" class="link">PSALM 12</router-link><br>
 </div>
 <router-view></router-view>
 </template>
