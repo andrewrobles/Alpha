@@ -1,16 +1,21 @@
 <script setup>
 import { onMounted } from 'vue'
-
+const BIBLE_ID = 'de4e12af7f28f599-02'
+const API_KEY = '4a203cf6d4603048c9008bc07df8be2a'
+const URL = 'https://api.scripture.api.bible/v1/bibles'
+const getPsalmURL = (psalmIndex) => {
+    return `${URL}/${BIBLE_ID}/chapters/PSA.${psalmIndex}?content-type=text`
+}
 const fetchData = async () => {
         try {
-            const response = await fetch('https://api.scripture.api.bible/v1/bibles', {
+            const response = await fetch(getPsalmURL(1), {
                 method: 'GET',
                 headers: {
-					'api-key': '4a203cf6d4603048c9008bc07df8be2a'
+					'api-key': API_KEY
                 },
             });
             const json = await response.json();
-			console.log(json)
+			console.log(json.data.content)
         } catch (error) {
             console.error(error);
         }
