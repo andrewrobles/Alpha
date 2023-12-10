@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import BookLink from './components/BookLink'
 
-function App() {
+const App = () => {
   useEffect(() => {
     fetchData();
   }, []);
@@ -21,7 +22,7 @@ function App() {
         },
       });
       const json = await response.json();
-      setText(json.data.content)
+      setText(json.data.content);
     } catch (error) {
       console.error(error);
     }
@@ -29,7 +30,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {text}
+        <div>{text}</div>
+        <BookLink/>
       </header>
     </div>
   );
