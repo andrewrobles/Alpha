@@ -1,5 +1,4 @@
-UNO
-===
+# UNO
 
 | Project   | Website | About |
 |-----------|---------|-------|
