@@ -1,5 +1,13 @@
 # UNO
 
+Friends,
+
+UNO is a collection of personal projects. The word UNO comes from the "mono-" prefix in the word "monorepo". I hope you enjoy exploring my most recent passion project.
+
+Love, Drew
+
+### Table of Contents
+
 | Project   | Website | About |
 |-----------|---------|-------|
 | Index | [https://andrewrobles.com](https://andrewrobles.com) | Portfolio website |
