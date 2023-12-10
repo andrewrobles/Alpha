@@ -1,4 +1,4 @@
-const BookLink = () => {
+const Link = () => {
   return (
     <a
       className="App-link"
@@ -11,4 +11,4 @@ const BookLink = () => {
   );
 };
 
-export default BookLink;
+export default Link;
