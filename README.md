@@ -1,6 +1,6 @@
 UNO
 ===
-| Project   | URL |
+| Project   | Website |
 |-------|------|
 | index | [https://andrewrobles.com](https://andrewrobles.com) |
 | resume | [https://andrewrobles.com/resume](https://andrewrobles.com/resume) |
