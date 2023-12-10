@@ -1,8 +1,6 @@
 UNO
 ===
 
-Table of Contents
-
 | Project   | Website | About |
 |-----------|---------|-------|
 | Index | [https://andrewrobles.com](https://andrewrobles.com) | Portfolio website |
