@@ -1,10 +1,6 @@
 # UNO
 
-Friends,
-
-UNO is a collection of personal projects. The word UNO comes from the "mono-" prefix in the word "monorepo". I hope you enjoy exploring my most recent passion project.
-
-Love, Drew
+UNO is a collection of personal projects. The word UNO comes from the "mono-" prefix in the word "monorepo".
 
 ### Table of Contents
 
