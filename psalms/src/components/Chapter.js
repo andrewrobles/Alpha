@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Link from '../components/Link'
 import api from '../api/index'
 
 const Chapter = () => {
@@ -14,7 +15,10 @@ const Chapter = () => {
       console.error(error);
     }
   };
-  return <div>{text}</div>;
+  return <div>
+    <Link href="/"/>
+    <div>{text}</div>
+  </div>;
 };
 
 export default Chapter;

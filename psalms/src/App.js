@@ -9,7 +9,7 @@ const App = () => {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route exact path="/" element={<Link/>}/>
+            <Route exact path="/" element={<Link href="/1"/>}/>
             <Route exact path="/1" element={<Chapter/>}/>
           </Routes>
         </Router>

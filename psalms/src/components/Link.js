@@ -1,8 +1,8 @@
-const Link = () => {
+const Link = (props) => {
   return (
     <a
       className="App-link"
-      href="/1"
+      href={props.href}
     >
       Psalm 1
     </a>
