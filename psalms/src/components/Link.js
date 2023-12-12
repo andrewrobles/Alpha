@@ -1,11 +1,10 @@
 const Link = (props) => {
   return (
-    <a
-      className="App-link"
-      href={props.href}
-    >
-      Psalm 1
-    </a>
+    <div>
+      <a className="App-link" href={`/${props.index}`}>
+        Psalm {props.index}
+      </a>
+    </div>
   );
 };
 

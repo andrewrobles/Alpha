@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import Link from "../components/Link";
 import api from "../api/index";
 
-const Chapter = () => {
+const Chapter = (props) => {
   const [text, setText] = useState("");
   useEffect(() => {
     fetchData();
   }, []);
   const fetchData = async () => {
     try {
-      const content = await api.useChapter(1);
+      const content = await api.useChapter(props.index);
       setText(content);
     } catch (error) {
       console.error(error);
@@ -17,7 +17,7 @@ const Chapter = () => {
   };
   return (
     <div>
-      <Link href="/" />
+      <Link href="/" index={props.index}/>
       <div>{text}</div>
     </div>
   );
