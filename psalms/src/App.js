@@ -11,7 +11,7 @@ const App = () => {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route exact path="/" element={<BasicList items={arrayOfPsalms}/>}/>
+            <Route exact path="/" element={<BasicList indexes={arrayOfIndexes}/>}/>
             <Route exact path="/temp" element={<Home/>}/>
             {arrayOfIndexes.map((value, index) => {
               return <Route exact path={`/${index + 1}`} element={<Chapter index={index + 1}/>}/>
