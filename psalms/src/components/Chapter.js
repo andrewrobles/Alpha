@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Link from "../components/Link";
+import Link from '@mui/material/Link'
 import api from "../api/index";
 
 const Chapter = (props) => {
@@ -17,7 +17,8 @@ const Chapter = (props) => {
   };
   return (
     <div>
-      <Link href="/" index={props.index}/>
+      {/* <Link href="/" index={props.index}/> */}
+      <Link href="/">{`Psalm ${props.index}`}</Link>
       <div>{text}</div>
     </div>
   );

@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
 import Chapter from './components/Chapter'
 import BasicList from './components/BasicList'
 
@@ -12,7 +11,6 @@ const App = () => {
         <Router>
           <Routes>
             <Route exact path="/" element={<BasicList indexes={arrayOfIndexes}/>}/>
-            <Route exact path="/temp" element={<Home/>}/>
             {arrayOfIndexes.map((value, index) => {
               return <Route exact path={`/${index + 1}`} element={<Chapter index={index + 1}/>}/>
             })}
