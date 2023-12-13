@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react";
-import Link from "../components/Link";
+import { styled } from '@mui/material/styles';
+import Link from '@mui/material/Link'
 import api from "../api/index";
+
+const Div = styled('div')(({ theme }) => ({
+  ...theme.typography.button,
+  backgroundColor: theme.palette.background.paper,
+  padding: theme.spacing(1),
+}));
 
 const Chapter = (props) => {
   const [text, setText] = useState("");
@@ -17,8 +24,10 @@ const Chapter = (props) => {
   };
   return (
     <div>
-      <Link href="/" index={props.index}/>
-      <div>{text}</div>
+      <div style={{marginLeft: '10px;'}}>
+        <Link href="/">{`Psalm ${props.index}`}</Link>
+      </div>
+      <Div>{text}</Div>
     </div>
   );
 };
