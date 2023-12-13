@@ -5,13 +5,14 @@ import BasicList from './components/BasicList'
 
 const App = () => {
   const arrayOfIndexes = [...Array(150).keys()];
+  const arrayOfPsalms = [{ label: 'Psalm 1' }, { label: 'Psalm 2' }]
   return (
     <div className="App">
       <header className="App-header">
         <Router>
           <Routes>
-            <Route exact path="/list" element={<BasicList/>}/>
-            <Route exact path="/" element={<Home/>}/>
+            <Route exact path="/" element={<BasicList items={arrayOfPsalms}/>}/>
+            <Route exact path="/temp" element={<Home/>}/>
             {arrayOfIndexes.map((value, index) => {
               return <Route exact path={`/${index + 1}`} element={<Chapter index={index + 1}/>}/>
             })}
