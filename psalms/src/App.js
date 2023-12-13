@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import Chapter from './components/Chapter'
-import "./App.css";
 
 const App = () => {
   const arrayOfIndexes = [...Array(150).keys()];
