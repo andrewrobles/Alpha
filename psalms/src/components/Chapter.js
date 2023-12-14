@@ -27,7 +27,6 @@ const Chapter = (props) => {
       <div style={{ padding: "0px 10px" }}>
         <Link href="/">{`Psalm ${props.index}`}</Link>
       </div>
-     
       <Div>{text}</Div>
     </div>
   );
