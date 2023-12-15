@@ -18,5 +18,9 @@
   {
     "path": "/music",
     "url": "https://github.com/andrewrobles/Uno/tree/trunk/Music"
+  },
+  {
+    "path": "/snap",
+    "url": "https://snap.berkeley.edu/snap/help/SnapManual.pdf"
   }
 ]
