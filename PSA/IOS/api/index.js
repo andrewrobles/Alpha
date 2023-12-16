@@ -12,7 +12,6 @@ const useChapter = async (psalmIndex) => {
       },
     });
     const json = await response.json();
-    console.log(json);
     return json?.data?.content;
   } catch (error) {
     console.error(error);

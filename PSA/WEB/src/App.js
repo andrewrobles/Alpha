@@ -4,7 +4,6 @@ import BasicList from './components/BasicList'
 
 const App = () => {
   const arrayOfIndexes = [...Array(150).keys()];
-  const arrayOfPsalms = [{ label: 'Psalm 1' }, { label: 'Psalm 2' }]
   return (
     <div className="App">
       <header className="App-header">
