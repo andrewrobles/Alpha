@@ -1,3 +1,3 @@
 # Psalms
 
-Bible app
+https://psalms.andrewrobles.com
