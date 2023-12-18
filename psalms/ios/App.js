@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react'
 import {
   StyleSheet,
   Text,
@@ -7,13 +7,24 @@ import {
   StatusBar,
 } from 'react-native';
 import PsalmList from './components/PsalmList.js'
+import Chapter from './components/Chapter.js'
+
+const views = {
+  // name: id
+  index: 1,
+  detail: 2,
+}
 
 const App = () => {
+  const [view, setView] = useState(1)
+  const onPress = () => {
+    setView(2)
+  }
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
         <Text style={styles.text}>
-          <PsalmList/>
+          { view === 1 ? <PsalmList onPress={onPress}/> : <Chapter/>}
         </Text>
       </ScrollView>
     </SafeAreaView>
@@ -27,9 +38,6 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     marginHorizontal: 20,
-  },
-  text: {
-    fontSize: 42,
   },
 });
 
