@@ -1,4 +1,3 @@
-import BasicListItem from "./BasicListItem"
 import { StyleSheet, Text, View, Button } from "react-native";
 const PSALMS_TOTAL = 150
 export default function BasicList(props) {
