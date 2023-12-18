@@ -8,7 +8,7 @@ void setup() {
 void loop() {
   int x = 1000;
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(x);                      // wait for x seconds
+  delay(x);                         // wait for x seconds
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(x);                      // wait for x seconds
+  delay(x);                         // wait for x seconds
 }
