@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Chapter from "./components/Chapter.js";
+// import Chapter from "./components/Chapter.js";
 import BasicList from "./components/BasicList.js";
 
 export default function App() {
@@ -8,8 +8,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-        <Chapter />
         <BasicList />
+        {/* <Chapter /> */}
     </View>
   );
 }
