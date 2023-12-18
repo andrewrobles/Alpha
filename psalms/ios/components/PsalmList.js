@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Button } from "react-native";
 const PSALMS_TOTAL = 150
-export default function BasicList(props) {
+export default function PsalmList(props) {
     const arrayOfIndexes = [...Array(PSALMS_TOTAL).keys()] 
     return (
         <View>

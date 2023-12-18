@@ -1,24 +1,36 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
-// import Chapter from "./components/Chapter.js";
-import BasicList from "./components/BasicList.js";
+import React from 'react';
+import {
+  StyleSheet,
+  Text,
+  SafeAreaView,
+  ScrollView,
+  StatusBar,
+} from 'react-native';
+import PsalmList from './components/PsalmList.js'
 
-export default function App() {
-  const arrayOfIndexes = [...Array(150).keys()];
+const App = () => {
   return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-        <BasicList />
-        {/* <Chapter /> */}
-    </View>
+    <SafeAreaView style={styles.container}>
+      <ScrollView style={styles.scrollView}>
+        <Text style={styles.text}>
+          <PsalmList/>
+        </Text>
+      </ScrollView>
+    </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
+    paddingTop: StatusBar.currentHeight,
+  },
+  scrollView: {
+    marginHorizontal: 20,
+  },
+  text: {
+    fontSize: 42,
   },
 });
+
+export default App;
