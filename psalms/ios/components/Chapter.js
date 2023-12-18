@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Text } from "react-native";
+import { Text, View, Button } from "react-native";
 import api from "../api/index";
 
-export default function Chapter() {
+export default function Chapter(props) {
   const [text, setText] = useState("");
   useEffect(() => {
     fetchData();
@@ -15,5 +15,10 @@ export default function Chapter() {
       console.log(error);
     }
   };
-  return <Text>{text}</Text>;
+  return (
+    <View>
+      <Button title={"Psalm " + props.psalm} onPress={props.onPress} />
+      <Text>{text}</Text>
+    </View>
+  );
 }

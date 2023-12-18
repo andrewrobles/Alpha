@@ -1,30 +1,37 @@
-import { useState } from 'react'
+import { useState } from "react";
 import {
   StyleSheet,
   Text,
   SafeAreaView,
   ScrollView,
   StatusBar,
-} from 'react-native';
-import PsalmList from './components/PsalmList.js'
-import Chapter from './components/Chapter.js'
+} from "react-native";
+import PsalmList from "./components/PsalmList.js";
+import Chapter from "./components/Chapter.js";
 
 const views = {
   // name: id
-  index: 1,
-  detail: 2,
-}
+  index: 0,
+  psalm: 1,
+};
 
 const App = () => {
-  const [view, setView] = useState(1)
+  const [view, setView] = useState(0);
   const onPress = () => {
-    setView(2)
-  }
+    setView(views.psalm);
+  };
+  const onPressHomeButton = () => {
+    setView(views.index);
+  };
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
         <Text style={styles.text}>
-          { view === 1 ? <PsalmList onPress={onPress}/> : <Chapter/>}
+          {view === 0 ? (
+            <PsalmList onPress={onPress} />
+          ) : (
+            <Chapter onPress={onPressHomeButton} psalm={views.psalm} />
+          )}
         </Text>
       </ScrollView>
     </SafeAreaView>
