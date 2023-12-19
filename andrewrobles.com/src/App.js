@@ -1,12 +1,8 @@
-import { Routes, Route } from 'react-router-dom'
-import Link from './components/Link'
-
-const links = require('./links.json')
+import "./App.css";
+import Bio from './components/bio'
 
 function App() {
-  return <Routes>
-      {links.map(link => <Route path={link.path} element={ <Link url={link.url}/> }/>)}
-  </Routes>
+  return <div><Bio/></div>;
 }
 
 export default App;
