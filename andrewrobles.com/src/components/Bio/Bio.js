@@ -1,17 +1,11 @@
-/**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react";
-import drew from '../drew.jpg'
+import drew from '../../drew.jpg'
+import './Bio.css'
 
-const Index = () => {
+const Bio = () => {
   return (
-    <div>
-      <img src={drew} width={175}/>
+    <div class="Bio">
+      <img src={drew} width={200}/>
       <p>
         I'm a Software Consultant who enjoys making programming videos on{" "}
         <a
@@ -68,4 +62,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Bio;

@@ -1,0 +1,9 @@
+.Bio p {
+    position: relative;
+    top: -10px;
+    line-height: 1.75;
+}
+
+.Bio p:nth-child(3) {
+    padding-top: 12px;
+}
