@@ -17,8 +17,8 @@ const views = {
 
 const App = () => {
   const [view, setView] = useState(0);
-  const onPress = () => {
-    setView(views.psalm);
+  const onPress = (psalm) => {
+    setView(psalm);
   };
   const onPressHomeButton = () => {
     setView(views.index);
@@ -30,7 +30,7 @@ const App = () => {
           {view === 0 ? (
             <PsalmList onPress={onPress} />
           ) : (
-            <Chapter onPress={onPressHomeButton} psalm={views.psalm} />
+            <Chapter onPress={onPressHomeButton} psalm={view} />
           )}
         </Text>
       </ScrollView>

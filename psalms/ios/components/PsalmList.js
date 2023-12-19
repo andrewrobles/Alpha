@@ -9,7 +9,7 @@ export default function PsalmList(props) {
           <Button
             key={index}
             title={"Psalm " + (index + 1)}
-            onPress={props.onPress}
+            onPress={() => props.onPress(index + 1)}
           />
         );
       })}

@@ -9,7 +9,7 @@ export default function Chapter(props) {
   });
   const fetchData = async () => {
     try {
-      const content = await api.useChapter(1);
+      const content = await api.useChapter(props.psalm);
       setText(content);
     } catch (error) {
       console.log(error);
