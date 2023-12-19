@@ -1,62 +1,61 @@
 import React from "react";
-import drew from '../../drew.jpg'
-import './Bio.css'
+import drew from "../../drew.jpg";
+import Link from "@mui/material/Link";
+import "./Bio.css";
 
 const Bio = () => {
   return (
     <div class="Bio">
-      <img src={drew} width={200}/>
+      <img src={drew} width={200} />
       <p>
         I'm a Software Consultant who enjoys making programming videos on{" "}
-        <a
-          href="https://www.tiktok.com/@andrew.robles"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         TikTok 
-        </a>{" "}
+        <Link href="https://www.tiktok.com/@andrew.robles"
+        target="_blank"
+        rel="noopener noreferrer"
+        >TikTok</Link>
+        {" "}
         and building a bible app called{" "}
-        <a
+        <Link
           href="https://psalms.andrewrobles.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-         Psalms 
-        </a>
+          Psalms
+        </Link>
         . My favorite technologies right now are: React, Django, and Arduino.
       </p>
       <p>Follow Me Online Here:</p>
       <ul>
         <li>
-          <a
+          <Link
             href="https://threads.net/andrewrobles_"
             target="_blank"
             rel="noopener noreferrer"
           >
             Threads
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="https://github.com/andrewrobles"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="https://discord.gg/mMHKGagE3h"
             target="_blank"
             rel="noopener noreferrer"
           >
             Discord
-          </a>
+          </Link>
         </li>
       </ul>
       <p>
-        <a href="/speaking">Interested in having me speak at an event?</a>
+        <Link href="/speaking">Interested in having me speak at an event?</Link>
       </p>
     </div>
   );
