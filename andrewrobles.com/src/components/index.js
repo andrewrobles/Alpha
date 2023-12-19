@@ -15,7 +15,7 @@ const Index = () => {
       <p>
         I'm a Software Consultant who enjoys making programming videos on{" "}
         <a
-          href="https://www.youtube.com/@andrew.robles"
+          href="https://www.tiktok.com/@andrew.robles"
           target="_blank"
           rel="noopener noreferrer"
         >
