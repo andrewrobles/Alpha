@@ -1,3 +1,0 @@
-# Andrew
-
-https://andrewrobles.com
