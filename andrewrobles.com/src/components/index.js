@@ -11,7 +11,7 @@ import drew from '../drew.jpg'
 const Index = () => {
   return (
     <div>
-      <img src={drew} width={175}/>
+      <img src={drew} width={200}/>
       <p>
         I'm a Software Consultant who enjoys making programming videos on{" "}
         <a

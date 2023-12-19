@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import "./App.css";
-import Index from './components'
-import Speaking from './components/speaking'
+import Index from './components/Index'
+import Speaking from './components/Speaking'
 import Link from './components/Link'
+import "./App.css";
 
 const links = require('./links.json')
 
 function App() {
-  return <div>
+  return <div class="App">
     <Router>
       <Routes>
         <Route exact path="/" element={<Index/>}/>
