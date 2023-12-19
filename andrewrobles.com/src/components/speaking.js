@@ -1,7 +1,8 @@
+import Link from "@mui/material/Link";
 const Speaking = () => {
   return (
     <div>
-      <a href="/">home</a>
+      <Link href="/">home</Link>
       <h1>Hire Drew to speak at your next Event</h1>
       <ul>
         <li>Drew specializes in Q&A style talks by himself or on a panel</li>
