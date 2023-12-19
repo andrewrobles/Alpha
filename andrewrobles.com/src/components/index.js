@@ -6,10 +6,12 @@
  */
 
 import React from "react";
+import drew from '../drew.jpg'
 
-const Bio = () => {
+const Index = () => {
   return (
     <div>
+      <img src={drew} width={175}/>
       <p>
         I'm a Software Consultant who enjoys making programming videos on{" "}
         <a
@@ -60,10 +62,10 @@ const Bio = () => {
         </li>
       </ul>
       <p>
-        <div>Interested in having me speak at an event?</div>
+        <a href="/speaking">Interested in having me speak at an event?</a>
       </p>
     </div>
   );
 };
 
-export default Bio;
+export default Index;
