@@ -8,7 +8,7 @@ const Speaking = () => {
         <li>Optional addons:</li>
         <ul>
             <li>Drew can post about Q&A/event on TikTok</li>
-            <li>Ben can livestream the Q&A on Instagram</li>
+            <li>Drew can livestream the Q&A on Instagram</li>
         </ul>
         <li>Speaking fee:</li>
         <ul>
