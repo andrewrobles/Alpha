@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Text, View, Button } from "react-native";
 import api from "../api/index";
 
-export default function Chapter(props) {
+const PsalmDetail = (props) => {
   const [text, setText] = useState("");
   useEffect(() => {
     fetchData();
@@ -24,3 +24,5 @@ export default function Chapter(props) {
     </View>
   );
 }
+
+export default PsalmDetail

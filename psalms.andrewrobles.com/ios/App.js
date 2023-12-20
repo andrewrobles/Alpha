@@ -7,7 +7,7 @@ import {
   StatusBar,
 } from "react-native";
 import PsalmList from "./components/PsalmList.js";
-import Chapter from "./components/Chapter.js";
+import PsalmDetail from "./components/PsalmDetail.js";
 
 const views = {
   // name: id
@@ -30,7 +30,7 @@ const App = () => {
           {view === 0 ? (
             <PsalmList onPress={onPress} />
           ) : (
-            <Chapter onPress={onPressHomeButton} psalm={view} />
+            <PsalmDetail onPress={onPressHomeButton} psalm={view} />
           )}
         </Text>
       </ScrollView>
