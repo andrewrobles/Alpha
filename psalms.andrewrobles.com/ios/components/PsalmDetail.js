@@ -20,7 +20,7 @@ const PsalmDetail = (props) => {
       <View style={{ marginRight: 'auto'}}>
         <Button title={"Psalm " + props.psalm} onPress={props.onPress} />
       </View>
-      <Text>{text}</Text>
+      <Text style={{fontSize: 15, textTransform: 'uppercase'}}>{text}</Text>
     </View>
   );
 }

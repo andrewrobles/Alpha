@@ -6,9 +6,8 @@ export default function PsalmList(props) {
     <View>
       {arrayOfIndexes.map((value, index) => {
         return (
-          <View style={{ marginRight: 'auto'}}>
+          <View key={index} style={{ marginRight: 'auto'}}>
             <Button
-              key={index}
               title={"Psalm " + (index + 1)}
               onPress={() => props.onPress(index + 1)}
             />

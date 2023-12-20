@@ -26,7 +26,7 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.text}>
+        <Text>
           {view === 0 ? (
             <PsalmList onPress={onPress} />
           ) : (
