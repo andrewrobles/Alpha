@@ -17,7 +17,9 @@ export default function Chapter(props) {
   };
   return (
     <View>
-      <Button title={"Psalm " + props.psalm} onPress={props.onPress} />
+      <View style={{ marginRight: 'auto'}}>
+        <Button title={"Psalm " + props.psalm} onPress={props.onPress} />
+      </View>
       <Text>{text}</Text>
     </View>
   );
