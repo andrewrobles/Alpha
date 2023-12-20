@@ -1,0 +1,10 @@
+.Speaking h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.Speaking li {
+    position: relative;
+    line-height: 1.75;
+    left: -40px;
+}

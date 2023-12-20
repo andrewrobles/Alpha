@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Bio from './components/Bio/Bio'
-import Speaking from './components/Speaking'
+import Speaking from './components/Speaking/Speaking'
 import Link from './components/Link'
 import "./App.css";
 
