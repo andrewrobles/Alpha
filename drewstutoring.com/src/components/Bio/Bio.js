@@ -16,7 +16,7 @@ const Bio = () => {
         {" "}
         and building a bible app called{" "}
         <Link
-          href="https://psalms.andrewrobles.com/"
+          href="https://psalmsapp.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -55,7 +55,7 @@ const Bio = () => {
         </li>
       </ul>
       <p>
-        <Link href="/speaking">Interested in having me speak at an event?</Link>
+        <Link href="/speaking">Let's connect</Link>
       </p>
     </div>
   );
