@@ -31,11 +31,11 @@ const Bio = () => {
         <ul>
           <li>
             <Link
-              href="https://threads.net/andrewrobles_"
+              href="https://www.tiktok.com/@andrew.robles"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Threads
+              TikTok
             </Link>
           </li>
           <li>
@@ -49,11 +49,11 @@ const Bio = () => {
           </li>
           <li>
             <Link
-              href="https://discord.gg/mMHKGagE3h"
+              href="https://www.instagram.com/andrewrobles_/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discord
+              Instagram
             </Link>
           </li>
         </ul>
