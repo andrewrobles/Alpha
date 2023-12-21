@@ -1,3 +1,7 @@
+.Bio {
+    width: 650px;
+}
+
 .Bio p {
     position: relative;
     top: -10px;
@@ -16,4 +20,10 @@
     position: relative;
     left: -40px;
     line-height: 2;
+}
+
+#bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
