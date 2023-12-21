@@ -15,3 +15,5 @@ How to publish Expo React Native App to Apple App Store (step-by-step tutorial)
 10. Test the app on TestFlight
 11. Submit app to Apple Review
 12. Download app on App Store
+
+Source: https://www.youtube.com/watch?v=LE4Mgkrf7Sk&t=204s
