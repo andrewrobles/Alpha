@@ -1,3 +1,4 @@
+// import Redirect from '../../../kit/Redirect'
 import logo from './logo.svg';
 import './App.css';
 
