@@ -25,7 +25,7 @@ const Bio = () => {
           >
             Psalms
           </Link>
-          . My favorite technologies right now are: React, Django, and Arduino.
+          . My favorite technologies right now are React and Arduino.
         </p>
         <p>Follow Me Online Here:</p>
         <ul>
