@@ -57,9 +57,6 @@ const Bio = () => {
             </Link>
           </li>
         </ul>
-        <p>
-          <Link href="/speaking">Let's connect</Link>
-        </p>
       </div>
     </div>
   );
