@@ -36,13 +36,6 @@ const Bio = () => {
           </li>
         </ul>
         <br/>
-        <Link
-          href="https://andrewrobles.com/resume/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         View my resume 
-        </Link>
       </div>
     </div>
   );
