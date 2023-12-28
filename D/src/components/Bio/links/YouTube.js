@@ -1,15 +1,7 @@
-import Link from "@mui/material/Link";
+import A from "./A";
 
 const YouTube = () => {
-  return (
-    <Link
-      href="https://www.youtube.com/@andrew.robles"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-     YouTube 
-    </Link>
-  );
+  return <A href="https://www.youtube.com/@andrew.robles">YouTube</A>;
 };
 
 export default YouTube;

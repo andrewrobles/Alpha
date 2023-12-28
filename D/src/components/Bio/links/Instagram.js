@@ -1,15 +1,7 @@
-import Link from "@mui/material/Link";
+import A from "./A";
 
 const Instagram = () => {
-  return (
-    <Link
-      href="https://www.instagram.com/andrewrobles_/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Instagram
-    </Link>
-  );
+  return <A href="https://www.instagram.com/andrewrobles_/">Instagram</A>;
 };
 
 export default Instagram;

@@ -1,14 +1,12 @@
-import Link from "@mui/material/Link";
+import A from "./A";
 
 const Psalms = () => {
   return (
-    <Link
+    <A
       href="https://psalmsapp.com/"
-      target="_blank"
-      rel="noopener noreferrer"
     >
       Psalms
-    </Link>
+    </A>
   );
 };
 
