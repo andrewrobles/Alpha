@@ -1,6 +1,6 @@
 # Day 0: Prologue
 
-[![IMAGE ALT TEXT HERE](./interstellar.png)](https://www.youtube.com/watch?v=PsvMXbe-MfU&t=6s)
+<a href="https://www.youtube.com/watch?v=PsvMXbe-MfU&t=6s" target="_blank"><img src="./interstellar.png"></a>
 
 
 There are 3 video sections: Bonus Training, Community Projects, and Daily Broadcasts
