@@ -2,8 +2,9 @@ import React from "react";
 import drew from "../../drew.jpg";
 import Link from "@mui/material/Link";
 import TikTok from './links/TikTok'
-import PsalmsApp from "./links/PsalmsApp";
+import Psalms from "./links/Psalms";
 import Instagram from "./links/Instagram";
+import YouTube from './links/YouTube';
 import "./Bio.css";
 
 const Bio = () => {
@@ -12,10 +13,10 @@ const Bio = () => {
       <div class="Bio">
         <img src={drew} width={200} />
         <p>
-          I'm a Software Consultant who enjoys making programming videos on{" "}
+          Hello, world! My name is Drew - I'm a Software Consultant who enjoys making programming videos on{" "}
           <TikTok/>{" "}
           and building a bible app called{" "}
-          <PsalmsApp/>
+          <Psalms/>
         </p>
         <p>Follow Me Online Here:</p>
         <ul>
@@ -23,13 +24,7 @@ const Bio = () => {
            <TikTok/> 
           </li>
           <li>
-            <Link
-              href="https://github.com/andrewrobles"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </Link>
+            <YouTube/>
           </li>
           <li>
             <Instagram/>

@@ -1,15 +1,15 @@
 import Link from "@mui/material/Link";
 
-const PsalmsApp = () => {
+const YouTube = () => {
   return (
     <Link
-      href="https://psalmsapp.com/"
+      href="https://www.youtube.com/@andrew.robles"
       target="_blank"
       rel="noopener noreferrer"
     >
-      Psalms
+     YouTube 
     </Link>
   );
 };
 
-export default PsalmsApp;
+export default YouTube;
