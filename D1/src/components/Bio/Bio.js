@@ -23,9 +23,8 @@ const Bio = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Psalms
+            Psalms App
           </Link>
-          . My favorite technologies right now are React and Arduino.
         </p>
         <p>Follow Me Online Here:</p>
         <ul>
@@ -57,6 +56,14 @@ const Bio = () => {
             </Link>
           </li>
         </ul>
+        <br/>
+        <Link
+          href="https://andrewrobles.com/resume/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         View my resume 
+        </Link>
       </div>
     </div>
   );
