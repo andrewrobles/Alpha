@@ -13,7 +13,7 @@ const Bio = () => {
       <div class="Bio">
         <img src={drew} width={200} />
         <p>
-          Hello, world! My name is Drew - I'm a Software Consultant who enjoys making programming videos on{" "}
+          Hello, world! My name is Drew the Engineer. I enjoy making programming videos on{" "}
           <TikTok/>{" "}
           and building a bible app called{" "}
           <Psalms/>
