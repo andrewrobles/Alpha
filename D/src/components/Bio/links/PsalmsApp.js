@@ -7,7 +7,7 @@ const PsalmsApp = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Psalms App
+      Psalms
     </Link>
   );
 };
