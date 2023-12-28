@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import { useEffect } from "react";
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite'
 import "./App.css";
 
 function App() {
@@ -16,11 +16,11 @@ function App() {
     measurementId: "G-2FTTEGG9P5"
   };
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  const db = getFirestore(app)
 
   useEffect(() => {
-    console.log("analytics:");
-    console.log(analytics)
+    const daysCol = collection(db, 'days')
+    console.log(daysCol)
   });
 
   return (
