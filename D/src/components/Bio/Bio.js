@@ -14,7 +14,7 @@ const Bio = () => {
       <div class="Bio">
         <img src={drew} width={200} />
         <p>
-          Hello, world! My name is Drew - an Engineer who enjoys making programming videos on{" "}
+          I'm an Engineer who enjoys making programming videos on{" "}
           <TikTok/>{" "}
           and building a bible app called{" "}
           <Psalms/>
