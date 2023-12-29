@@ -4,6 +4,7 @@ import Link from "@mui/material/Link";
 import TikTok from './links/TikTok'
 import Psalms from "./links/Psalms";
 import Instagram from "./links/Instagram";
+import LinkedIn from './links/LinkedIn';
 import YouTube from './links/YouTube';
 import "./Bio.css";
 
@@ -25,6 +26,9 @@ const Bio = () => {
           </li>
           <li>
             <YouTube/>
+          </li>
+          <li>
+            <LinkedIn/>
           </li>
           <li>
             <Instagram/>
