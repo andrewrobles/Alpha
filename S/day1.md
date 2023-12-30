@@ -6,7 +6,7 @@
 <img src="./day1/2.png" height="500"><br>
 <img src="./day1/3.png" height="500"><br>
 <img src="./day1/4.png" height="500"><br>
-Install Arduino IDE software onto your computer
+Install Arduino IDE software onto your computer<br>
 <img src="./day1/5.png" height="500"><br>
 <img src="./day1/6.png" height="500"><br>
 <img src="./day1/7.png" height="500"><br>
