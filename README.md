@@ -1,4 +1,4 @@
-<img src="" height="250">
+<img src="./drew/public/favicon.ico" height="20">
 
 - [Day 0: Prologue](./space/day0.md)
 - [Day 1: Incoming Broadcast from InventrCorp](./space/day1.md)
