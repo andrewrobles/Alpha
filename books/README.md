@@ -1,1 +1,3 @@
-- Run backend `npm run dev`
+### backend
+- Install `npm i`
+- Run `npm run dev`
