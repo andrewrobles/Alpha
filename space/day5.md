@@ -1,1 +1,0 @@
-<img src="./thumbnails/5.png">
