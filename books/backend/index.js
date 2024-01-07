@@ -5,6 +5,8 @@ import { Book } from './models/bookModel.js'
 
 const app = express()
 
+app.use(express.json())
+
 app.get('/', (request, response) => {
     console.log(request)
     return response.status(234).send('Welcome To MERN Stack')
@@ -26,7 +28,7 @@ app.post('/books', async (request, response) => {
 
         const book = await Book.create(newBook)
 
-        return response.status(201).send(newBook)
+        return response.status(201).send(book)
     } catch (error) {
         console.log(error.message)
         response.status(500).send({ message: error.message})
